@@ -1,39 +1,23 @@
-=== Plugin Name ===
-Contributors: bertjohnson)
-Donate link: https://bertjohnson.com
-Tags: twitch, video, embed
-Requires at least: 2.0
-Tested up to: 4.4
-Stable tag: trunk
-License: MIT
-License URI: http://mit-license.org/
+WP Twitch
+=========
 
 Simple embedding of your Twitch stream, which will only show when you're online.
-
-== Description ==
-
-Simple embedding of your Twitch stream, which will only show when you're online.
-
-== Installation ==
-
-1. Download and unzip the file.
-2. Place the entire contents of the directory into your `/wp-content/plugins/` directory.
-3. Activate the plugin through the 'Plugins' menu in WordPress.
-
-== Screenshots ==
-
-== Shortcode Usage ==
 
 To add your Twitch stream, use the following code:
 
 	[twitch channel="twitchchannelname" height="640" height="480"]
+	
+Licensed according to the MIT License (http://mit-license.org/).
 
-Options are:
-1. channel: Twitch channel name
-2. width: Width of the video player
-3. height: Height of the video player
-4. https: "true" if the channel needs to be served over SSL
+Created by Bert Johnson (http://bertjohnson.com/).
 
-== Changelog ==
-= 1.0 =
-Initial release.
+License
+=======
+
+Copyright © 2013-2015 Bert Johnson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
