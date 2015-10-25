@@ -5,8 +5,8 @@ Tags: twitch, video, embed
 Requires at least: 2.0
 Tested up to: 4.4
 Stable tag: trunk
-License: MIT
-License URI: http://mit-license.org/
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Simple embedding of your Twitch stream, which will only show when you're online.
 
@@ -32,7 +32,7 @@ Options are:
 1. channel: Twitch channel name
 2. width: Width of the video player
 3. height: Height of the video player
-4. https: "true" if the channel needs to be served over SSL
+4. https: When "true", ensure Twitch video is delivered over HTTPS
 
 == Changelog ==
 = 1.0 =
