@@ -1,7 +1,7 @@
 WP Twitch
 =========
 
-Simple embedding of your Twitch stream, which will only show when you're online.
+Simple embedding of your Twitch stream into WordPress, which will only show when you're online.
 
 Sample Screenshot
 =================
